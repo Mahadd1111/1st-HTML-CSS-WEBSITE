@@ -1,0 +1,209 @@
+.whole{
+    border:5px solid black;
+    display:flex;
+    flex:1;
+    flex-shrink: 1;
+    flex-direction: column;
+    gap:50px;
+    background-color: #1f2937;
+}
+
+/* HEADER & ITS ITEMS  */
+.header{
+    background-color: #1f2937;
+    display:flex;
+    flex:1;
+    align-items: center;
+    width:100%;
+}
+
+.logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    align-self: left;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.header h1{
+    color: aliceblue;
+    margin:20px;
+}
+
+.links{
+    display:flex;
+    flex:1;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-left:400px;
+}
+
+.header img{
+   padding:auto;
+   width:100%;
+   margin: 5px;
+}
+
+.home a{
+    color:white;
+    text-decoration: none;
+}
+
+.about a{
+    color:white;
+    text-decoration: none;
+}
+
+.buy a{
+    color:white;
+    text-decoration: none;
+}
+
+/* INTRODUCTION & ITS ITEMS */
+
+.introduction{
+    background-color: #1f2937;
+    display:flex;
+    flex:1;
+}
+
+.text{
+    width: 50%;
+    height:auto;
+    margin-left:20px;
+    color: aliceblue;
+    flex-wrap: wrap;
+}
+
+.text button{
+    background-color: #3882F6;
+    color: aliceblue;
+    margin-top:40px;
+    border-radius: 25px;
+    width: 90px;
+    height: 33px;
+}
+
+.image{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.image img{
+    width:70%;
+    height: 90%;
+}
+
+/* INFORMATION & ITS CONTENT */
+
+.information{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:350px;
+}
+
+.cities ul{
+    display:flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap:70px;
+}
+
+.image1,.image2,.image3,.image4,.image5{
+    width:165px;
+    height: 150px;
+    border:8px solid black;
+    border-radius: 25px;
+}
+
+.image1 img,.image2 img,.image3 img,.image4 img,.image5 img{
+    width:165px;
+    height:150px;
+}
+
+/* QUOTE & ITS CONTENTS */
+
+.quote{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:50px;
+}
+
+.quote h1{
+    color: red;
+}
+
+.quote h3{
+    color:cornsilk;
+}
+
+/*CONTACT & ITS CONTENTS */
+
+.contact{
+    display:flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    width:100%;
+}
+
+.container{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    height:250px;
+}
+
+.contact container{
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:200px;
+    padding-right:200px;
+}
+
+.container h3{
+    font-weight: bold;
+}
+
+.container .button{
+    display:flex;
+    padding-left: 7px;
+}
+
+.container .button button{
+    border-radius: 25px;
+    background-color: #3882F6;
+    height: 30px;
+    width:70px;
+}
+
+.container .text{
+    color: black;
+}
+
+/* FOOTER & ITS CONTENTS */
+
+.footer{
+    display:flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    color:white;
+}
